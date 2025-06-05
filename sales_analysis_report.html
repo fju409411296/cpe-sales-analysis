@@ -1,0 +1,105 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>銷售分析報告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            .container { max-width: 1200px; margin: 0 auto; }
+            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            img { max-width: 100%; height: auto; margin: 20px 0; }
+            .section { margin: 40px 0; }
+            h1, h2 { color: #333; }
+            .highlight { background-color: #fff3cd; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>銷售分析報告</h1>
+            <p>報告生成時間：2025-04-10 00:12:24</p>
+            
+            <div class="section">
+                <h2>1. 服務中心分析</h2>
+                <img src="report_figures/service_center_analysis.png" alt="服務中心分析">
+                <h3>表現突出的服務中心：</h3>
+                <table>
+                    <tr><th>服務中心</th><th>數量</th><th>Z-score</th></tr>
+                    <tr><td>三重服務中心</td><td>933</td><td>2.08</td></tr><tr><td>新莊服務中心</td><td>1090</td><td>2.64</td></tr><tr><td>永和二線</td><td>1171</td><td>2.93</td></tr><tr><td>永和服務中心</td><td>1265</td><td>3.26</td></tr>
+                </table>
+                
+                <h3>銷售金額TOP5：</h3>
+                <table>
+                    <tr><th>服務中心</th><th>金額</th></tr>
+                    <tr><td>三重服務中心</td><td>1,528,086</td></tr><tr><td>新莊服務中心</td><td>1,509,248</td></tr><tr><td>永和服務中心</td><td>1,221,554</td></tr><tr><td>永和二線</td><td>1,003,800</td></tr><tr><td>板橋服務中心</td><td>967,038</td></tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>2. 商品分析</h2>
+                <h3>各商品類別銷售情況：</h3>
+                <img src="report_figures/category_analysis.png" alt="商品類別金額分析">
+                <img src="report_figures/category_quantity_analysis.png" alt="商品類別數量分析">
+                <table>
+                    <tr><th>商品類別</th><th>銷售金額</th><th>銷售數量</th><th>平均單價</th></tr>
+                    <tr><td>手機配件</td><td>13,536,245</td><td>8573</td><td>1,579</td></tr><tr><td>節能商品</td><td>1,941,544</td><td>1726</td><td>1,125</td></tr><tr><td>健康保養</td><td>1,251,030</td><td>2340</td><td>535</td></tr><tr><td>HDTV</td><td>736,324</td><td>71</td><td>10,371</td></tr><tr><td>3C週邊產品</td><td>556,740</td><td>62</td><td>8,980</td></tr><tr><td>電話機</td><td>515,319</td><td>533</td><td>967</td></tr><tr><td>居家生活用品</td><td>72,850</td><td>458</td><td>159</td></tr><tr><td>投影機</td><td>25,900</td><td>1</td><td>25,900</td></tr><tr><td>喇叭組</td><td>7,930</td><td>30</td><td>264</td></tr>
+                </table>
+                
+                <h3>銷售額TOP20商品：</h3>
+                <table>
+                    <tr><th>商品名稱</th><th>商品類別</th><th>銷售金額</th><th>銷售數量</th><th>平均單價</th></tr>
+                    <tr><td>(白)配件_APPLE AirPods Pro(第2代)搭配MagSafe充電盒(USB C)</td><td>手機配件</td><td>3,857,350</td><td>515</td><td>7,490</td></tr><tr><td>()配件_(黑)型號Apple iPhone 16 Pro(6.3)防爆玻璃膜9H3倍強韌3D滿版曲面MQueen膜法女王</td><td>手機配件</td><td>774,063</td><td>485</td><td>1,596</td></tr><tr><td>()【微熱山丘】鳳梨酥山丘芭娜娜禮盒</td><td>健康保養</td><td>634,040</td><td>1218</td><td>521</td></tr><tr><td>()配件_65W氮化鎵電源供應器+2條強韌編織線(240W充電線+10Gbps傳輸)C to C(1.5M) 組合包MQG膜法女王</td><td>手機配件</td><td>457,757</td><td>272</td><td>1,683</td></tr><tr><td>()配件_(黑)型號Apple iPhone 16 Pro Max(6.9)防爆玻璃膜9H3倍強韌3D滿版曲面MQueen膜法女王</td><td>手機配件</td><td>424,874</td><td>265</td><td>1,603</td></tr><tr><td>(太空灰)Apple iPad Air 11.0 WiFi 128GB(2024)_395S08(太空灰)(順發)</td><td>3C週邊產品</td><td>389,000</td><td>20</td><td>19,450</td></tr><tr><td>()【微熱山丘】鳳梨酥蘋果酥中秋禮盒</td><td>健康保養</td><td>367,740</td><td>681</td><td>540</td></tr><tr><td>()配件_(白)FTK 67W氮化鎵附雙線充電收納組(內附1.2M c to c及2M c to c 充電線)</td><td>手機配件</td><td>282,484</td><td>167</td><td>1,692</td></tr><tr><td>()配件_(黑)型號Apple iPhone 16(6.1)防爆玻璃膜9H3倍強韌3D滿版曲面MQueen膜法女王</td><td>手機配件</td><td>260,720</td><td>164</td><td>1,590</td></tr><tr><td>(白)配件_(白)Samsung?GalaxyBuds3 Pro真無線藍牙耳機(R630)</td><td>手機配件</td><td>246,620</td><td>38</td><td>6,490</td></tr><tr><td>()配件_型號Apple iPhone 16 Pro(6.3)高透亮軍規防摔玻璃保護殼MQG膜法女王</td><td>手機配件</td><td>234,595</td><td>294</td><td>798</td></tr><tr><td>()BenQ?RP6504 65吋 教育互動觸控顯示器(含wifi TDY31)</td><td>HDTV</td><td>222,000</td><td>3</td><td>74,000</td></tr><tr><td>()配件_(白)FTK 67W氮化鎵附雙線充電收納組(內附240W/10GBps c to c- 1.2M 及240W c to c- 2M充電線)</td><td>手機配件</td><td>216,535</td><td>127</td><td>1,705</td></tr><tr><td>(金)配件_(金)LAPO 全功能無線充電行動電源TC版 WT-08</td><td>手機配件</td><td>207,108</td><td>105</td><td>1,972</td></tr><tr><td>(灰)配件_(灰)Samsung Galaxy Buds3真無線藍牙耳機(R530)</td><td>手機配件</td><td>202,050</td><td>45</td><td>4,490</td></tr><tr><td>(灰)配件_(灰)Samsung?GalaxyBuds3 Pro真無線藍牙耳機(R630)</td><td>手機配件</td><td>201,190</td><td>31</td><td>6,490</td></tr><tr><td>(白)東元12公斤變頻洗脫烘滾筒洗衣機WD1261HW</td><td>節能商品</td><td>179,900</td><td>10</td><td>17,990</td></tr><tr><td>()配件_【IOIO】USB 3.2 Type C to C(240W/10GBps) 1.2米+65W 氮化鎵智慧型急速充電器組合包DU18/ADU3068</td><td>手機配件</td><td>179,336</td><td>107</td><td>1,676</td></tr><tr><td>()配件_(黑)型號：SAMSUNG Galaxy A35/A55防爆玻璃膜 9H滿版 MQueen膜法女王</td><td>手機配件</td><td>168,184</td><td>182</td><td>924</td></tr><tr><td>()配件_【IOIO】USB Type C to C(100W/5GBps) 120cm+38W 氮化鎵急速充電器組合包DU09/ADU2038</td><td>手機配件</td><td>164,659</td><td>159</td><td>1,036</td></tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>3. 銷售趨勢分析</h2>
+                <img src="report_figures/daily_sales_trend.png" alt="日銷售趨勢">
+                <h3>最高銷售日分析：</h3>
+                <p>日期：2024-09-20</p>
+                <p>銷售金額：3,011,725</p>
+                <p>銷售數量：1693</p>
+                
+                <h4>當日各門市銷售金額排名：</h4>
+                <table>
+                    <tr><th>服務中心</th><th>銷售金額</th><th>銷售數量</th></tr>
+                    <tr><td>新莊服務中心</td><td>303,808</td><td>208</td></tr><tr><td>三重服務中心</td><td>197,005</td><td>112</td></tr><tr><td>板橋服務中心</td><td>184,887</td><td>111</td></tr><tr><td>永和服務中心</td><td>159,103</td><td>80</td></tr><tr><td>樂華夜市服務中心</td><td>140,869</td><td>68</td></tr><tr><td>鶯歌服務中心</td><td>118,116</td><td>59</td></tr><tr><td>蘆洲服務中心</td><td>109,207</td><td>48</td></tr><tr><td>海山捷運服務中心</td><td>107,107</td><td>55</td></tr><tr><td>景安捷運服務中心</td><td>97,478</td><td>46</td></tr><tr><td>蘆洲中華服務中心</td><td>94,625</td><td>40</td></tr><tr><td>三峽服務中心</td><td>86,665</td><td>50</td></tr><tr><td>林口忠孝服務中心</td><td>85,366</td><td>39</td></tr><tr><td>泰明服務中心</td><td>84,965</td><td>43</td></tr><tr><td>中和南山服務中心</td><td>83,713</td><td>49</td></tr><tr><td>北大服務中心</td><td>79,674</td><td>48</td></tr><tr><td>連城服務中心</td><td>78,586</td><td>43</td></tr><tr><td>土城服務中心</td><td>77,875</td><td>36</td></tr><tr><td>集賢服務中心</td><td>77,357</td><td>45</td></tr><tr><td>永和中正服務中心</td><td>75,777</td><td>30</td></tr><tr><td>樹林服務中心</td><td>66,715</td><td>50</td></tr><tr><td>板橋四維服務中心</td><td>66,609</td><td>35</td></tr><tr><td>新莊幸福服務中心</td><td>66,099</td><td>39</td></tr><tr><td>南勢角服務中心</td><td>63,228</td><td>36</td></tr><tr><td>板橋新埔服務中心</td><td>61,064</td><td>32</td></tr><tr><td>新莊中平服務中心</td><td>58,229</td><td>26</td></tr><tr><td>江翠服務中心</td><td>49,118</td><td>39</td></tr><tr><td>明志服務中心</td><td>41,829</td><td>31</td></tr><tr><td>林口服務中心</td><td>41,277</td><td>25</td></tr><tr><td>後港服務中心</td><td>40,425</td><td>18</td></tr><tr><td>新莊民安服務中心</td><td>34,883</td><td>25</td></tr><tr><td>五股服務中心</td><td>34,418</td><td>23</td></tr><tr><td>板橋三民服務中心</td><td>30,699</td><td>24</td></tr><tr><td>三峽復興服務中心</td><td>29,110</td><td>24</td></tr><tr><td>府中服務中心</td><td>27,416</td><td>19</td></tr><tr><td>樹林中華服務中心</td><td>22,504</td><td>14</td></tr><tr><td>三重正義服務中心</td><td>21,609</td><td>9</td></tr><tr><td>環球服務中心</td><td>14,310</td><td>14</td></tr>
+                </table>
+                
+                <h4>當日熱門商品TOP5：</h4>
+                <table>
+                    <tr><th>商品名稱</th><th>商品類別</th><th>銷售金額</th><th>銷售數量</th></tr>
+                    <tr><td>(白)配件_APPLE AirPods Pro(第2代)搭配MagSafe充電盒(USB C)</td><td>手機配件</td><td>1,168,440</td><td>156</td></tr><tr><td>()配件_(黑)型號Apple iPhone 16 Pro(6.3)防爆玻璃膜9H3倍強韌3D滿版曲面MQueen膜法女王</td><td>手機配件</td><td>238,099</td><td>149</td></tr><tr><td>()配件_65W氮化鎵電源供應器+2條強韌編織線(240W充電線+10Gbps傳輸)C to C(1.5M) 組合包MQG膜法女王</td><td>手機配件</td><td>183,126</td><td>109</td></tr><tr><td>()配件_(黑)型號Apple iPhone 16 Pro Max(6.9)防爆玻璃膜9H3倍強韌3D滿版曲面MQueen膜法女王</td><td>手機配件</td><td>150,139</td><td>94</td></tr><tr><td>()配件_型號Apple iPhone 16 Pro(6.3)高透亮軍規防摔玻璃保護殼MQG膜法女王</td><td>手機配件</td><td>83,114</td><td>102</td></tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>4. 統計摘要</h2>
+                <h3>4.1 服務中心統計（基於40個服務中心）</h3>
+                <table>
+                    <tr><th>指標</th><th>銷售數量</th><th>銷售金額</th><th>平均單價</th></tr>
+                    <tr><td>count</td><td>40.0</td><td>40.0</td><td>40.0</td></tr><tr><td>mean</td><td>344.9</td><td>466,097.0</td><td>1,606.8</td></tr><tr><td>std</td><td>285.8</td><td>334,954.5</td><td>1,622.7</td></tr><tr><td>min</td><td>47.0</td><td>91,184.0</td><td>857.2</td></tr><tr><td>25%</td><td>198.8</td><td>265,023.2</td><td>1,222.9</td></tr><tr><td>50%</td><td>257.5</td><td>368,780.5</td><td>1,393.0</td></tr><tr><td>75%</td><td>308.0</td><td>488,130.0</td><td>1,473.9</td></tr><tr><td>max</td><td>1,265.0</td><td>1,528,086.0</td><td>11,527.0</td></tr>
+                </table>
+                
+                <h3>4.2 商品類別統計</h3>
+                <table>
+                    <tr><th>商品類別</th><th>銷售數量</th><th>銷售金額</th><th>平均單價</th></tr>
+                    <tr><td>手機配件</td><td>8,573</td><td>13,536,245</td><td>1,579</td></tr><tr><td>節能商品</td><td>1,726</td><td>1,941,544</td><td>1,125</td></tr><tr><td>健康保養</td><td>2,340</td><td>1,251,030</td><td>535</td></tr><tr><td>HDTV</td><td>71</td><td>736,324</td><td>10,371</td></tr><tr><td>3C週邊產品</td><td>62</td><td>556,740</td><td>8,980</td></tr><tr><td>電話機</td><td>533</td><td>515,319</td><td>967</td></tr><tr><td>居家生活用品</td><td>458</td><td>72,850</td><td>159</td></tr><tr><td>投影機</td><td>1</td><td>25,900</td><td>25,900</td></tr><tr><td>喇叭組</td><td>30</td><td>7,930</td><td>264</td></tr>
+                </table>
+                
+                <h3>4.3 總體銷售統計</h3>
+                <table>
+                    <tr><th>指標</th><th>數值</th></tr>
+                    <tr><td>總銷售數量</td><td>13,794</td></tr>
+                    <tr><td>總銷售金額</td><td>18,643,882</td></tr>
+                    <tr><td>平均單價</td><td>1,352</td></tr>
+                    <tr><td>商品種類數</td><td>742</td></tr>
+                    <tr><td>服務中心數量</td><td>40</td></tr>
+                </table>
+            </div>
+        </div>
+    </body>
+    </html>
+    
